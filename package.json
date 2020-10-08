@@ -1,0 +1,18 @@
+{
+  "name": "tailwind-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss-cli": "^8.0.0",
+    "tailwindcss": "^1.8.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "tailwindcss build styles/tailwind.css -o styles/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
